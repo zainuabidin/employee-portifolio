@@ -1,0 +1,12 @@
+:root{
+    --Main:#1F2DA3; 
+
+}
+header{
+
+}
+
+body{
+    background-color: var(--Main);
+
+}
