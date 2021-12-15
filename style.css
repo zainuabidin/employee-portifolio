@@ -1,12 +1,23 @@
 :root{
-    --Main:#1F2DA3; 
+    --Main-color:#1F2DA3; 
+    --font-color-1:#F4F4F5;
+    --border-color:#EB5E4E
+
+    
 
 }
-header{
+header h1{
+    background-color: var(--Main-color);
+    color: var(--font-color-1);
+
 
 }
 
 body{
-    background-color: var(--Main);
+    background-color: var(--Main-color);
 
+}
+
+nav{
+    float: right;
 }
