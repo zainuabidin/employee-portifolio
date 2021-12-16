@@ -1,23 +1,85 @@
 :root{
     --Main-color:#1F2DA3; 
     --font-color-1:#F4F4F5;
-    --border-color:#EB5E4E
-
-    
-
+    --border-color:#FD7F20;
+    --border-color2:#FC2E20;
 }
-header h1{
-    background-color: var(--Main-color);
-    color: var(--font-color-1);
+* {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+ }
+         
 
-
-}
 
 body{
-    background-color: var(--Main-color);
+    background-color: var(--font-color-1)
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: ‘Bakbak One’; 
+    font-size: 1em; 
+    
+    }
 
+    header{
+        margin: 50px 50px 50px 50px;
+        padding: 20px;
+        position: fixed;
+        background-color: var(--Main-color);
+        
+        
+    }
+
+    
+ #home-button{
+    
+    
+    line-height: 20px;
+    float: left;
+    color: var(--font-color-1);
+   
+   
+    }
+#nav-right{
+    color: var(--font-color-1);
+    float: right;
+    list-style: none;
+    margin-right: 100px;   
+    
+    
+  
+
+    
 }
 
-nav{
-    float: right;
+li{
+    display: inline;
+    margin: 0 0 0 200px;
+    line-height: 20px;
+    border: 4px solid var(--border-color);
+    padding: 5px;
+    border-radius: 15px;
+   
+   
+    
+   
+    
+}
+
+li:hover{
+
+    
+    background-color: var(--border-color);
+    bold
+}
+li:active{
+    
+    color: var(--border-color);
+    background-color: var(--Main-color);
+   border-color: var(--border-color2);
+
+
+}
+li:link{
+    color: var(--border-color2);
 }
