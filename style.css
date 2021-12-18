@@ -14,6 +14,7 @@
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
+        
  }
          
 /* elements selectors targets the body  which includes 3 sections */
@@ -23,7 +24,6 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: ‘Bakbak One’; 
-    font-size: 1em; 
     background-color: var(--Main-color);
     
     }
@@ -109,7 +109,7 @@ h1:hover{
     color:var(--Main-color);
 }
 
-/* class selector used trageting the first section of the body*/
+/* class selector used targeting the first section of the body*/
 .main-image-section{
     border: dotted var(--border-color);
     margin: 100px 70px 100px 70px;
@@ -140,9 +140,44 @@ h1:hover{
    font-size: 3em;
     color: var(--font-color-1);
     float: right;
+
 }
 
 
+
+
+
+.second-image-section{
+    border: solid 5px black;
+    margin: 100px 70px 100px 70px;
+    display:flex; 
+    border-radius: 20%;
+    padding: 60px; 
+    background-color: var(--font-color-1);
+   
+    
+}
+
+.second-main-image{
+    width: 300px;
+    margin-top: 15px;
+    
+
+
+    
+    
+}
+    .second-name{
+        margin: 50px 0 0 50px;
+        /* font-family: ; */
+       font-size: 2em;
+        color: var(--border-color);
+        float: right;
+    }
+
+
+
+   
     
 footer{
     background-color: black;
@@ -192,4 +227,3 @@ footer{
 }
 
 
-    
