@@ -55,6 +55,8 @@ body{
    
    
     }
+
+    /* id selector used ofr navigation bar in header  */
 #nav-right{
     
     float: right;
@@ -90,16 +92,17 @@ body header nav li{
 
     
     background-color: var(--border-color);
-    bold
+    /* bold */
 }
 .mouse:active{
     
     color: var(--border-color);
     background-color: var(--Main-color);
    border-color: var(--border-color2);
-
-
 }
+
+
+
 .mouse:link{
     color: var(--border-color2);
 
@@ -109,7 +112,7 @@ h1:hover{
     color:var(--Main-color);
 }
 
-/* class selector used targeting the first section of the body*/
+/* class selector used targeting the first section of the main*/
 .main-image-section{
     border: dotted var(--border-color);
     margin: 100px 70px 100px 70px;
@@ -146,7 +149,7 @@ h1:hover{
 
 
 
-
+/* second section of main  */
 .second-image-section{
     border: solid 5px black;
     margin: 100px 70px 100px 70px;
@@ -174,6 +177,42 @@ h1:hover{
         color: var(--border-color);
         float: right;
     }
+
+
+
+
+
+   /* third section of the main */
+
+
+ .my-portifolio{ 
+    color: var(--border-color);
+    font-size: 3em;
+    text-align: center;
+    background-color: var(--font-color-1);
+     }
+
+     .portifolio-images{ 
+    margin: 100px 0 100px 300px; 
+    display:flex; 
+     }
+
+  .column {  
+    width: 50%;
+    display: flex;
+}
+
+ .column img {  
+    width: 50%;
+    height: auto;
+}
+     
+
+
+    
+
+    
+/* footer oof the page include styling for form and nav bar */
 
 
 
