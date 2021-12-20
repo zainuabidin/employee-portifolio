@@ -1,4 +1,5 @@
 # employee-portifolio
+deployed link: https://zainuabidin.github.io/employee-portifolio/
 
 User Story
 AS AN employer
@@ -22,6 +23,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 
+![employee portfolio](https://user-images.githubusercontent.com/95305672/146705617-341b0bb5-5e72-4ce0-8e64-06ade1b1bcdc.png)
 
 
 
