@@ -1,4 +1,5 @@
 # employee-portifolio
+deployed link: https://zainuabidin.github.io/employee-portifolio/
 
 
 
@@ -8,6 +9,7 @@ so that employee can review samples of their work and assess whether they're a g
 
 
 
+![employee portfolio](https://user-images.githubusercontent.com/95305672/146705617-341b0bb5-5e72-4ce0-8e64-06ade1b1bcdc.png)
 
 
 
