@@ -50,7 +50,6 @@ body{
     
     
     line-height: 20px;
-    float: left;
     color: var(--border-color);
    
    
@@ -59,8 +58,8 @@ body{
     /* id selector used ofr navigation bar in header  */
 #nav-right{
     
-    float: right;
-    list-style: none;
+   
+    list-style-type: none;
     margin-right: 100px;   
     height: 50px;
     
@@ -71,6 +70,7 @@ body{
 }
 
 body header nav li{
+    text-decoration: none;
     display: inline;
      margin: 0 0 0 200px;
     line-height: 20px;
@@ -108,9 +108,8 @@ body header nav li{
 
 }
 
-h1:hover{
-    color:var(--Main-color);
-}
+
+
 
 /* class selector used targeting the first section of the main*/
 .main-image-section{
@@ -139,7 +138,6 @@ h1:hover{
    
 .name{
     margin: 200px 0 0 100px;
-    /* font-family: ; */
    font-size: 3em;
     color: var(--font-color-1);
     float: right;
@@ -150,7 +148,7 @@ h1:hover{
 
 
 /* second section of main  */
-.second-image-section{
+.second-section{
     border: solid 5px black;
     margin: 100px 70px 100px 70px;
     display:flex; 
@@ -161,21 +159,27 @@ h1:hover{
     
 }
 
-.second-main-image{
+.second-image{
     width: 300px;
     margin-top: 15px;
+    height: auto;
     
 
 
     
     
 }
-    .second-name{
+    .intro{
         margin: 50px 0 0 50px;
-        /* font-family: ; */
        font-size: 2em;
         color: var(--border-color);
-        float: right;
+        text-transform: uppercase;
+        font-weight: bolder;font-family:Arial, Helvetica, serif;
+    }
+    .intro p{
+        color:black;
+        font-size: 0.9em;
+        font-weight: lighter;
     }
 
 
