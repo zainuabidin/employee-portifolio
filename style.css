@@ -14,6 +14,7 @@
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
+        text-decoration: none
         
  }
          
@@ -70,15 +71,14 @@ body{
 }
 
 body header nav li{
-    text-decoration: none;
+    
     display: inline;
      margin: 0 0 0 200px;
     line-height: 20px;
     border: 2px solid var(--border-color);
     padding: 8px;
     border-radius: 15px;
-    background-color: var(--Main-color);
-    color: var(--font-color-1);
+    background-color:var(--font-color-1)
     height: 20px;
    
    
@@ -92,7 +92,7 @@ body header nav li{
 
     
     background-color: var(--border-color);
-    /* bold */
+    
 }
 .mouse:active{
     
@@ -103,10 +103,6 @@ body header nav li{
 
 
 
-.mouse:link{
-    color: var(--border-color2);
-
-}
 
 
 
@@ -261,9 +257,8 @@ footer{
     border: 2px solid var(--border-color);
     padding: 8px;
     border-radius: 15px;
-    background-color: black;
-    color: var(--font-color-1);
-    height: 20px;
+    background-color:var(--font-color-1);
+     height: 20px;
    
     
 

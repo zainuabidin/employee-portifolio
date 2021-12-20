@@ -22,16 +22,6 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 
-sample for mprevious work
 
-developemen name  and photo this image should be larger
-
-link to about them work and how to contact them with images
-section about me work and contact
-
-link ui  to section
-
-
-media query
 
 
