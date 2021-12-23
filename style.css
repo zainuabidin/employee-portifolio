@@ -78,7 +78,7 @@ body header nav li{
     border: 2px solid var(--border-color);
     padding: 8px;
     border-radius: 15px;
-    background-color:var(--font-color-1)
+    background-color:var(--font-color-1);
     height: 20px;
    
    
@@ -271,6 +271,4 @@ footer{
       background-color: lightblue;
     }
   }
-© 2021 GitHub, Inc.
-Terms
-Privacy
+
